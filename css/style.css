@@ -1,0 +1,524 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #ecf0f1;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.aboveNav {
+    background-color: #6c5ce7;
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+}
+
+.icon {
+    background-color: #6c5ce7;
+    color: #ecf0f1;
+    margin: 0 10px;
+    padding: 8px;
+    font-size: 12px;
+    /* padding-left: ; */
+}
+
+.icon:hover {
+    color: royalblue;
+    background-color: seashell;
+    font-size: 12px;
+    border-radius: 50%;
+}
+
+.icon1 {
+    margin-left: 100px;
+}
+
+.navPara {
+    display: inline;
+    background-color: #6c5ce7;
+    color: #ecf0f1;
+    margin-left: 100px;
+}
+
+.navbtn {
+    padding: 5px 10px;
+    color: red;
+    margin: 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.navbtn1 {
+    margin-left: 80px;
+}
+
+
+/* ==========================================Above Nav Bar Ends ============================================= */
+
+.navbar {
+    width: 100%;
+    height: 75px;
+    background-color: #ecf0f1;
+    position: sticky;
+    top: 0px;
+    box-shadow: 3px 5px 3px 2px rgba(138, 137, 137, 0.3);
+}
+
+#navImg {
+    margin-right: 100px;
+    margin-top: 12px;
+    background-color: #ecf0f1;
+}
+
+.navList {
+    display: inline;
+    text-align: center;
+    background-color: #ecf0f1;
+}
+
+#navHome {
+    background-color: #6c5ce7;
+    color: cornsilk;
+    border-radius: 50px;
+}
+
+.navList ul {
+    display: inline;
+    padding-left: 95px;
+    /* margin-bottom: 10px; */
+}
+
+.navList ul li {
+    /* margin: 150px 0; */
+    display: inline;
+    vertical-align: middle;
+}
+
+.navList a {
+    font-size: 15px;
+    color: black;
+    display: inline;
+    text-decoration: none;
+    /* margin: 0 8px; */
+    /* margin-top: 205px; */
+    padding: 12px 15px;
+}
+
+.navList a i {
+    background-color: #6c5ce7;
+}
+
+.navList a:hover {
+    background-color: #6c5ce7;
+    color: cornsilk;
+    border-radius: 50px;
+}
+
+#slider {
+    margin-top: 5px;
+    width: 100%;
+    height: 450px;
+    image-rendering: crisp-edges;
+}
+
+
+/* ============================================Nav Bar + Slider Ends ================================ */
+
+.introPara {
+    font-size: 14px;
+    background-color: blueviolet;
+    display: inline-block;
+    text-align: center;
+    padding: 0 35px;
+    color: burlywood;
+    margin-top: 35px;
+}
+
+.intro h1 {
+    margin-top: 50px;
+    color: blueviolet;
+    font-size: 35px;
+}
+
+.intro h1 span {
+    color: red;
+}
+
+.introImg {
+    padding: 10px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.introPara2 {
+    text-align: left;
+    width: 70%;
+    font-size: 16px;
+    margin: auto;
+    color: gray;
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+
+#topBtn {
+    width: 70px;
+    height: 65px;
+    background-color: rgba(199, 190, 190, 0.5);
+    opacity: 0.3;
+    position: sticky;
+    left: 1260px;
+    top: 540px;
+    transition: all 0.5s ease-in;
+}
+
+
+/* ===================================== Introduction Ends ============================================= */
+
+.counter {
+    background-color: #6c5ce7;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 100px;
+}
+
+table {
+    background-color: #6c5ce7;
+    margin: auto;
+    color: #ecf0f1;
+    padding-top: 55px;
+}
+
+.counterLogo {
+    color: #ecf0f1;
+    background-color: #6c5ce7;
+    font-size: 25px;
+    padding-bottom: 0px;
+}
+
+.counter td {
+    background-color: #6c5ce7;
+    padding: 0 35px;
+}
+
+.counter h1 {
+    margin-top: 50px;
+    background-color: #6c5ce7;
+    /* color: blueviolet; */
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.counter td span {
+    background-color: #6c5ce7;
+    color: #f39c12;
+    font-weight: 900;
+}
+
+
+/* ===================================Counter Section ======================================== */
+
+.cards {
+    text-align: center;
+}
+
+.cards h1 {
+    margin-top: 50px;
+    color: blueviolet;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.cardList {
+    width: 95%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    margin: 15px 60px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    vertical-align: middle;
+}
+
+.cardList:hover {
+    box-shadow: ;
+}
+
+.cards h1 span {
+    color: red;
+}
+
+.card {
+    align-items: center;
+    width: 380px;
+    height: 200px;
+    padding: 50px 50px;
+    margin: 15px 15px;
+    box-shadow: 3px 5px 5px 3px rgba(128, 126, 126, 0.3);
+    background-color: white;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 7px 7px 7px 6px rgba(128, 126, 126, 0.3);
+}
+
+.card .cardImg {
+    background-color: white;
+    width: 60px;
+    margin: 15px;
+}
+
+.card h2 {
+    background-color: white;
+    color: blueviolet;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.cardImgMedical {
+    width: 50px;
+}
+
+.cardImgRo {
+    width: 100px;
+}
+
+
+/* ========================== Cards Ends =============================== */
+
+.upcoming {
+    background-color: white;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 65% 30%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.leftUp {
+    margin-top: 50px;
+    background-color: white;
+}
+
+.leftUp h1 {
+    color: blueviolet;
+    background-color: white;
+    text-align: left;
+    margin-left: 35px;
+    margin-bottom: 15px;
+}
+
+.red {
+    width: 50px;
+    height: 3px;
+    margin-left: 35px;
+    margin-bottom: 15px;
+    background-color: red;
+}
+
+.red2 {
+    width: 50px;
+    height: 3px;
+    margin-bottom: 15px;
+    background-color: red;
+}
+
+.leftCards {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    flex-wrap: wrap;
+    margin-left: 25px;
+}
+
+.upCard {
+    background-color: gainsboro;
+    margin: 10px;
+    padding: 15px 25px;
+    width: 350px;
+}
+
+.upCardImg {
+    width: 50px;
+    background-color: gainsboro;
+}
+
+.upCard h2 {
+    background-color: gainsboro;
+    color: blueviolet;
+    font-size: 20px;
+    padding-left: 50px 40px;
+    display: inline;
+}
+
+.rightUp {
+    background-color: white;
+    margin-top: 50px;
+}
+
+.rightUp h1 {
+    background-color: white;
+    color: blueviolet;
+    text-align: left;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.rightUp p {
+    border: 1px solid whitesmoke;
+    padding: 10px;
+    background-color: white;
+    color: gray;
+    text-align: left;
+    font-size: 14px;
+    line-height: 25px;
+    width: 90%;
+    margin-bottom: 25px;
+}
+
+
+/* ====================================== Upcoming Events End ============================== */
+
+.gallery h1 {
+    color: blueviolet;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+
+.gallery span {
+    color: red;
+}
+
+.imageIcon1 {
+    position: relative;
+    left: 540px;
+}
+
+div.imageDiv {
+    display: inline;
+}
+
+div.imageDiv img {
+    width: 200px;
+    height: 100px;
+    margin: 25px 0px;
+}
+
+div.imageDiv img::before {
+    content: "Hello";
+    color: greenyellow;
+    position: relative;
+    display: block;
+    font-size: 150px;
+}
+
+.galleryImg:hover {
+    opacity: 0.3;
+    transition: 0.4s ease;
+    z-index: -3;
+}
+
+
+/* ==================== Gallery Ends ============================ */
+
+footer {
+    width: 100%;
+    background-color: black !important;
+}
+
+.footer {
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    display: block;
+    color: blueviolet;
+    background-color: rgb(16, 14, 36);
+    display: grid;
+    grid-template-columns: 40% 25% 25%;
+}
+
+.footer .part1 h2 {
+    background-color: rgb(16, 14, 36);
+    text-align: left
+}
+
+.footer .part1 {
+    background-color: rgb(16, 14, 36);
+    padding: 55px;
+    padding-left: 85px;
+}
+
+.footer .part1 ul li {
+    background-color: rgb(16, 14, 36);
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    text-align: left;
+    list-style: none;
+    line-height: 25px;
+}
+
+.footer .part1 ul li i {
+    color: rgb(201, 3, 3);
+    background-color: rgb(16, 14, 36);
+    margin-right: 15px;
+    font-size: 12px;
+}
+
+.globe {
+    margin-left: 19px;
+    margin-right: 5px!important;
+}
+
+.footer .part2 {
+    background-color: rgb(16, 14, 36);
+}
+
+.footer .part2 p {
+    background-color: rgb(16, 14, 36);
+    margin-top: 50px;
+    color: white;
+    text-align: left;
+}
+
+.line1 {
+    width: 50px;
+    height: 2.5px;
+    margin-top: 5px;
+    background-color: rgba(250, 8, 8, 0.5);
+}
+
+.footer .part3 {
+    background-color: rgb(16, 14, 36);
+}
+
+.footer .part3 p {
+    background-color: rgb(16, 14, 36);
+    margin-top: 50px;
+    color: white;
+    text-align: left;
+    margin-left: 70px;
+    margin-bottom: 15px;
+}
+
+.footer .part3 i {
+    margin-left: 0px;
+    margin: 5px;
+    text-align: left;
+    border-radius: 50%;
+}
+
+.copy {
+    background-color: #6c5ce7;
+    /* margin-bottom: 0; */
+    /* margin-top: 15px; */
+    color: white;
+    padding: 20px 0;
+    font-size: 13px;
+    text-align: left;
+    padding-left: 150px;
+}
