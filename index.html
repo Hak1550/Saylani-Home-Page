@@ -5,33 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saylani Welfare Trust</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/Styl.css">
     <link rel="stylesheet" href="css/all.css">
 </head>
 
 <body>
     <Section class="aboveNav" id="top">
-        <i class="fab fa-facebook-f icon1 icon"></i>
-        <i class="fab fa-twitter icon"></i>
-        <i class="fab fa-instagram icon"></i>
-        <i class="fab fa-youtube icon"></i>
-        <i class="fab fa-whatsapp icon"></i>
+        <div class="navicons">
+            <i class="fab fa-facebook-f icon1 icon"></i>
+            <i class="fab fa-twitter icon"></i>
+            <i class="fab fa-instagram icon"></i>
+            <i class="fab fa-youtube icon"></i>
+            <i class="fab fa-whatsapp icon"></i>
+        </div>
+
         <p class="navPara">Millions of people's life has changed, millions more awaiting your donation</p>
-        <buttton class="navbtn navbtn1">
-            UK Donor
-        </buttton>
-        <buttton class="navbtn">
-            Donate Now
-        </buttton>
-        <buttton class="navbtn">
-            SMIT Result
-        </buttton>
+
+        <div class="navbtns">
+            <buttton class="navbtn navbtn1">
+                UK Donor
+            </buttton>
+            <buttton class="navbtn">
+                Donate Now
+            </buttton>
+            <buttton class="navbtn">
+                SMIT Result
+            </buttton>
+        </div>
     </Section>
 
     <!-- /* ================================== Above Navbar Ends ============================================= */ -->
 
-
-    <Section class="navbar">
+    <Section class="navBar">
         <img src="images/saylani-logo.png" width="200" align="middle" id="navImg" alt="">
         <div class="navList">
             <ul>
@@ -45,21 +50,21 @@
                 </li>
                 <li><a href="#">Saylani Services <i class="fas fa-chevron-down"></i></a>
                     <ul class="ul3">
-                        <li><a href="">Education</a>
+                        <li><a href="">Education <i class="fas fa-chevron-right"></i></a>
                             <ul class="ul4">
                                 <li><a href="">Saylani Mass Training</a></li>
                                 <li><a href="">Incubator</a></li>
                                 <li><a href="">Green House</a></li>
                             </ul>
                         </li>
-                        <li><a href="">Medical</a>
+                        <li><a href="">Medical <i class="fas fa-chevron-right"></i></a>
                             <ul class="ul5">
                                 <li><a href="">Blood Bank</a></li>
                                 <li><a href="">Clinic</a></li>
                                 <li><a href="">Medical Internship</a></li>
                             </ul>
                         </li>
-                        <li><a href="">Welfare</a>
+                        <li><a href="">Welfare <i class="fas fa-chevron-right"></i></a>
                             <ul class="ul6  ">
                                 <li><a href="">Family Adoption</a></li>
                                 <li><a href="">Wedding Help</a></li>
@@ -87,16 +92,18 @@
             </ul>
         </div>
     </Section>
-    <img src="images/slider2.jpeg" id="slider" alt="">
+    <img src="/images/slider2.jpeg" class="slider" alt="">
 
-    <!-- /* ============================== Nav Bar + Slider Ends ============================================= */ -->
+    <!-- ============================== Nav Bar + Slider Ends =============================================  -->
 
     <Section class="intro">
         <p class="introPara">(News-1 Dated:15-06-2019) PIAICNext Phase Admission in Islamabad And Faisalabad" . More Details (News-2 Dated:15-05-2019) Saylani Welfare Announced "Donation Application" . More Details </p>
 
         <h1>INTRO<span>DUCTION</span></h1>
 
+        <div class="red1"></div>
         <img src="images/logo circle.jpg" width="100" class="introImg" alt="">
+        <div class="red2"></div>
 
         <p class="introPara2">
             Established in May 1999 by famous spiritual and religious scholar Maulana Bashir Ahmed Farooqui, Saylani Welfare International Trust was built on the fundamentals of breaking the cycle of poverty, alleviating the financial troubles of the poor, giving
@@ -113,51 +120,62 @@
     <!-- /* ================================== Introduction Ends ============================================= */ -->
 
     <section class="counter">
-        <table>
-            <tr>
-                <td><i class="fas fa-utensils counterLogo"></i> </td>
-                <td><i class="fas fa-users counterLogo"></i></td>
-                <td><i class="fas fa-stethoscope counterLogo"></i> </td>
-                <td><i class="fas fa-user-graduate counterLogo"></i> </td>
-            </tr>
-            <tr>
-                <td>
-                    <h1>125,000</h1>
-                </td>
-                <td>
-                    <h1>7,500</h1>
-                </td>
-                <td>
-                    <h1>43,749</h1>
-                </td>
-                <td>
-                    <h1>180,000</h1>
-                </td>
-            </tr>
-            <tr>
-                <td>DAILY DASTARKHAWAN
-                    <SPan>(MONTHLY)</SPan>
-                </td>
-                <td>FAMILY ADOPTION
-                    <SPan>(MONTHLY)</SPan>
-                </td>
-                <td>MEDICAL
-                    <SPan>(MONTHLY)</SPan>
-                </td>
-                <td>EDUCATION
-                    <SPan>(MONTHLY)</SPan>
-                </td>
-            </tr>
 
-        </table>
+        <div class="counter1">
+            <div class="counterLogo">
+                <i class="fas fa-utensils"></i>
+            </div>
+            <div>
+                <h1>125,000</h1>
+            </div>
+            <div class="detail">DAILY DASTARKHAWAN
+                <SPan>(MONTHLY)</SPan>
+            </div>
+        </div>
+        <div class="counter2">
+            <div class="counterLogo">
+                <i class="fas fa-users"></i>
+            </div>
+            <div>
+                <h1>7,500</h1>
+            </div>
+            <div class="detail">Family adoption
+                <SPan>(MONTHLY)</SPan>
+            </div>
+        </div>
+
+        <div class="counter3">
+            <div class="counterLogo">
+                <i class="fas fa-stethoscope"></i>
+            </div>
+            <div>
+                <h1>43,749</h1>
+            </div>
+            <div class="detail">Medical
+                <SPan>(MONTHLY)</SPan>
+            </div>
+        </div>
+        <div class="counter4">
+            <div class="counterLogo">
+                <i class="fas fa-user-graduate"></i>
+            </div>
+            <div>
+                <h1>180,000</h1>
+            </div>
+            <div class="detail">education
+                <SPan>(MONTHLY)</SPan>
+            </div>
+        </div>
+
     </section>
     <!-- /* ===================================Counter Section Ends ======================================== */ -->
 
     <section class="cards">
 
         <h1>What we<span> are doing?</span></h1>
-
+        <div class="red1"></div>
         <img src="images/logo circle.jpg" width="100" class="introImg" alt=""> <br>
+        <div class="red2"></div>
 
 
         <div class="cardList">
