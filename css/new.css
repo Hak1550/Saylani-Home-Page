@@ -312,6 +312,7 @@ table {
 }
 
 .cards h1 span {
+    margin-top: 15px;
     color: red;
 }
 
@@ -619,12 +620,10 @@ footer {
         padding-top: 15px;
         margin-bottom: 15px;
         flex: 1;
-        /* background-color: blueviolet; */
     }
     .navbtns {
         margin-bottom: 15px;
         flex: 1;
-        /* background-color: blueviolet; */
     }
     /* ======================================= Above Nav ========================= */
     .navbar {

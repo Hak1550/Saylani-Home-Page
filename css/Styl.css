@@ -1,360 +1,875 @@
-             * {
-             margin: 0;
-             padding: 0;
-             font-size: 16px;
-             line-height: 16px;
-             font-family: 'Times New Roman', Times, serif;
-             text-align: center;
-             /* width: 100%; */
-         }
-         /* ===================================== Above Nav Start ========================================= */
-         
-         .aboveNav {
-             display: flex;
-             flex-direction: row;
-             justify-content: space-evenly;
-             align-items: center;
-             flex-wrap: wrap;
-             background-color: blueviolet;
-             width: 100%;
-         }
-         
-         .navicons,
-         .navPara,
-         .navbtns {
-             padding: 15px 0;
-             width: 300px;
-         }
-         
-         .navicons {
-             color: white;
-         }
-         
-         .icon {
-             margin: 0 10px;
-             width: auto;
-             padding: 5px;
-             cursor: pointer;
-         }
-         
-         .icon:hover {
-             color: blueviolet;
-             background-color: white;
-             border-radius: 50%;
-         }
-         
-         .navPara {
-             color: white;
-             font-size: 15px;
-             width: 650px;
-         }
-         
-         .navbtn {
-             border: 1px solid cadetblue;
-             margin: 0 2px;
-             color: red;
-             background-color: #ecf0f1;
-             padding: 5px 10px;
-             font-size: 12px;
-             cursor: pointer;
-         }
-         /* ================================= Nav Bar Starts ========================================== */
-         
-         .navBar {
-             display: flex;
-             flex-direction: row;
-             justify-content: space-evenly;
-             align-items: center;
-             flex-wrap: wrap;
-             background-color: #ecf0f1;
-             position: sticky;
-             top: 0;
-             width: 100%;
-             box-shadow: 3px 5px 3px 2px rgba(138, 137, 137, 0.3);
-         }
-         
-         nav {
-             background-color: #ecf0f1!important;
-         }
-         
-         #navImg {
-             background-color: #ecf0f1;
-             width: 200px;
-             text-align: left;
-             float: left;
-             margin: 15px;
-         }
-         
-         .navList ul {
-             float: left;
-             position: relative;
-             list-style: none;
-             margin: 0;
-             padding: 0;
-         }
-         
-         .navList>ul {
-             margin-top: 10px;
-         }
-         
-         .navList a {
-             list-style: none;
-             color: rgb(97, 91, 91);
-             text-decoration: none;
-             line-height: 32px;
-             padding: 10px 16px;
-             margin: 0 10px;
-         }
-         
-         .navList ul li {
-             position: relative;
-             float: left;
-             margin: 0;
-             padding: 0;
-         }
-         
-         .navList>ul>li>a:hover {
-             background-color: blueviolet;
-             color: white;
-             box-shadow: 2px 2px 2px 2px rgb(212, 200, 200);
-             border: 1p;
-             border-radius: 50px;
-         }
-         
-         .navList ul li a:hover>i {
-             color: white;
-             background-color: blueviolet;
-         }
-         
-         .navList ul ul {
-             position: absolute;
-             top: 100%;
-             left: 0;
-             display: none;
-             margin-top: 10px;
-             background-color: white;
-         }
-         
-         .navList ul ul i {
-             margin-left: 15px;
-             background-color: white;
-             float: right;
-             margin-top: 10px;
-         }
-         
-         .navList ul ul a:hover {
-             border-bottom: 2px solid rgb(97, 91, 91);
-             transition: all 0.1s ease-in;
-         }
-         
-         .navList ul ul a:hover>i {
-             background-color: white;
-             color: rgb(97, 91, 91);
-         }
-         
-         .navList ul ul li {
-             background-color: white;
-             float: none;
-             width: 180px;
-             font-size: 15px;
-         }
-         
-         .navList ul ul li a {
-             background-color: white;
-             margin-bottom: 5px;
-         }
-         
-         .navList ul ul ul {
-             top: 0;
-             left: 100%;
-         }
-         
-         .navList ul li:hover>ul {
-             display: block;
-             transition: all 0.5s ease-in;
-         }
-         
-         .slider {
-             width: 100%;
-             height: 500px;
-         }
-         /* ================= Introduction Para Starts ========================== */
-         
-         .intro {
-             background-color: rgba(153, 148, 148, 0.2);
-             padding: 25px 0;
-         }
-         
-         .introPara {
-             width: 80%;
-             color: white;
-             background-color: blueviolet;
-             padding: 5px;
-             font-size: 12px;
-             margin: 35px auto;
-             height: 18px;
-             line-height: 20px;
-         }
-         
-         .intro h1 {
-             font-size: 30px;
-             margin-bottom: 10px;
-             color: blueviolet;
-         }
-         
-         .intro h1 span {
-             color: red;
-             font-size: 30px;
-         }
-         
-         .introImg {
-             border-radius: 50%;
-             margin-bottom: 20px;
-         }
-         
-         .introPara2 {
-             width: 90%;
-             margin: auto;
-             line-height: 25px;
-             text-align: justify;
-         }
-         
-         #topBtn {
-             position: sticky;
-             left: 1260px;
-             top: 520px;
-             opacity: 0.3;
-             background-color: gray;
-             padding: 0;
-             width: 80px;
-             border-radius: 20px;
-         }
-         /* =========================== Counter Starts ============================ */
-         
-         .counter {
-             display: flex;
-             flex-direction: row;
-             flex-wrap: wrap;
-             justify-content: center;
-             align-items: center;
-             background-color: #6c5ce7;
-             width: 100%;
-             height: 300px;
-             margin-bottom: 70px;
-         }
-         
-         .counter1,
-         .counter2,
-         .counter3,
-         .counter4 {
-             margin: 15px 35px;
-         }
-         
-         .counter i {
-             color: white;
-             font-size: 35px;
-             margin-bottom: 20px;
-         }
-         
-         .counter h1 {
-             font-size: 30px;
-             color: white;
-             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-             margin-bottom: 20px;
-         }
-         
-         .counter .detail {
-             color: white;
-             font-size: 18px;
-             text-transform: uppercase;
-         }
-         
-         .counter span {
-             color: rgba(157, 255, 0, 0.9);
-         }
-         /* =============== What we are doin? ================================= */
-         
-         .cards h1 {
-             font-size: 30px;
-             color: blueviolet;
-             text-transform: uppercase;
-             margin-bottom: 25px;
-         }
-         
-         .cards h1 span {
-             font-size: 30px;
-             color: red;
-         }
-         
-         .red1 {
-             width: 60px;
-             height: 3px;
-             background-color: rgba(255, 0, 0, 0.7);
-             display: inline-block;
-             margin-bottom: 20px;
-         }
-         
-         .red2 {
-             width: 60px;
-             height: 3px;
-             background-color: rgba(255, 0, 0, 0.7);
-             display: inline-block;
-             margin-bottom: 150px;
-         }
-         /* ======================= Media Query for Tab =============================== */
-         
-         @media only screen and (max-width: 760px) {
-             .navicons,
-             .navPara,
-             .navbtns {
-                 padding: 10px 0;
-                 width: 100%;
-                 margin: 0;
-             }
-             .navBar {
-                 position: sticky;
-                 top: 0;
-                 flex-direction: column;
-                 justify-content: center;
-             }
-             .navBar ul {
-                 align-items: center;
-             }
-             .navBar ul li a {
-                 font-size: 10px;
-             }
-             .navBar ul li a i {
-                 font-size: 12px;
-                 float: right;
-                 margin-right: 65px;
-                 /* padding-left: 10px; */
-             }
-             .navBar ul li {
-                 width: 100%;
-             }
-             .introPara {
-                 font-size: 12px;
-                 width: 90%;
-                 height: 14px;
-             }
-             .intro {
-                 padding: 10px 0;
-             }
-             .counter {
-                 flex-direction: column;
-                 height: 600px;
-             }
-             /* ======================= Media Query for Mobile Phones =============================== */
-             @media only screen and (max-width: 500px) {
-                 .slider {
-                     width: 100%;
-                     height: 200px;
-                 }
-                 .navBar {
-                     position: sticky;
-                     top: 0;
-                 }
-                 #topBtn {
-                     position: sticky;
-                 }
-             }
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    /* width: 100%; */
+}
+
+
+/* ===================================== Above Nav Start ========================================= */
+
+.aboveNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: blueviolet;
+    width: 100%;
+}
+
+.navicons,
+.navPara,
+.navbtns {
+    padding: 15px 0;
+    width: 300px;
+}
+
+.navicons {
+    color: white;
+}
+
+.icon {
+    margin: 0 10px;
+    width: auto;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.icon:hover {
+    color: blueviolet;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.navPara {
+    color: white;
+    font-size: 15px;
+    width: 650px;
+}
+
+.navbtn {
+    border: 1px solid cadetblue;
+    margin: 0 2px;
+    color: red;
+    background-color: #ecf0f1;
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+
+/* ================================= Nav Bar Starts ========================================== */
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #ecf0f1;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    box-shadow: 3px 5px 3px 2px rgba(138, 137, 137, 0.3);
+    z-index: 1;
+}
+
+nav {
+    background-color: #ecf0f1!important;
+}
+
+#navImg {
+    background-color: #ecf0f1;
+    width: 200px;
+    text-align: left;
+    float: left;
+    margin: 15px;
+}
+
+.navList ul {
+    float: left;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navList>ul {
+    margin-top: 10px;
+}
+
+.navList a {
+    list-style: none;
+    color: rgb(97, 91, 91);
+    text-decoration: none;
+    line-height: 32px;
+    padding: 10px 16px;
+    margin: 0 10px;
+}
+
+.navList ul li {
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.navList>ul>li>a:hover {
+    background-color: blueviolet;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgb(212, 200, 200);
+    border: 1p;
+    border-radius: 50px;
+}
+
+.navList ul li a:hover>i {
+    color: white;
+    background-color: blueviolet;
+}
+
+.navList ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.navList ul ul i {
+    margin-left: 15px;
+    background-color: white;
+    float: right;
+    margin-top: 10px;
+}
+
+.navList ul ul a:hover {
+    border-bottom: 2px solid rgb(97, 91, 91);
+    transition: all 0.1s ease-in;
+}
+
+.navList ul ul a:hover>i {
+    background-color: white;
+    color: rgb(97, 91, 91);
+}
+
+.navList ul ul li {
+    background-color: white;
+    float: none;
+    width: 180px;
+    font-size: 15px;
+}
+
+.navList ul ul li a {
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.navList ul ul ul {
+    top: 0;
+    left: 100%;
+}
+
+.navList ul li:hover>ul {
+    display: block;
+    transition: all 0.5s ease-in;
+}
+
+.slider {
+    width: 100%;
+    height: 500px;
+}
+
+
+/* ================= Introduction Para Starts ========================== */
+
+.intro {
+    background-color: rgba(153, 148, 148, 0.2);
+    padding: 25px 0;
+    margin-bottom: 0;
+}
+
+.introPara {
+    width: 80%;
+    color: white;
+    background-color: blueviolet;
+    margin: 0 auto;
+    height: 18px;
+    line-height: 20px;
+    border: 1px solid blueviolet;
+    overflow: hidden;
+    
+    }
+    .introPara p {
+        font-size: 12px;
+        animation: paara 30s ease infinite;
+        /* animation-delay: 1s; */
+    }
+
+    @keyframes paara {
+        0% { transform: translateX(1000px) ;  }
+        100% { transform: translateX(-1050px) ;   }
+    }
+
+.intro h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: blueviolet;
+    margin-top: 25px;
+}
+
+.intro h1 span {
+    color: red;
+    font-size: 30px;
+}
+
+.introImg {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    width: 50px;
+}
+
+.introPara2 {
+    width: 90%;
+    margin: 0 auto;
+    line-height: 25px;
+    text-align: justify;
+}
+
+#topBtn {
+    position: sticky;
+    left: 1260px;
+    top: 520px;
+    opacity: 0.3;
+    background-color: gray;
+    padding: 0;
+    width: 80px;
+    border-radius: 20px;
+}
+
+
+/* =========================== Counter Starts ============================ */
+
+.counter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #6c5ce7;
+    width: 100%;
+    height: 300px;
+    margin-top: 0;
+}
+
+.counter1,
+.counter2,
+.counter3,
+.counter4 {
+    margin: 15px 35px;
+}
+
+.counter i {
+    color: white;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.counter h1 {
+    font-size: 30px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+.counter .detail {
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.counter span {
+    color: rgba(157, 255, 0, 0.9);
+}
+
+
+/* =============== What we are doin? ================================= */
+
+.cards {
+    background-color: rgba(153, 148, 148, 0.2);
+    padding: 45px 0;
+}
+
+.cards h1 {
+    /* margin-top: 50px; */
+    font-size: 30px;
+    color: blueviolet;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.cards h1 span {
+    font-size: 30px;
+    color: red;
+}
+
+.red1 {
+    width: 40px;
+    height: 3px;
+    background-color: rgba(255, 0, 0, 0.7);
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: -25px;
+}
+
+.red2 {
+    height: 3px;
+    width: 40px;
+    background-color: rgba(255, 0, 0, 0.7);
+    position: relative;
+    margin-left: 705px;
+    bottom: 23px;
+    z-index: -0.5;
+}
+
+.cardList {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.card {
+    width: 300px!important;
+    height: 100px;
+    padding: 50px;
+    margin: 15px;
+    box-shadow: 3px 5px 5px 3px rgba(128, 126, 126, 0.3);
+    background-color: white;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 7px 7px 7px 6px rgba(128, 126, 126, 0.3);
+}
+
+.card .cardImg {
+    background-color: white;
+    width: 60px;
+    margin: 15px;
+}
+
+.card h2 {
+    background-color: white;
+    color: blueviolet;
+    text-transform: uppercase;
+}
+
+.cardImgMedical {
+    width: 40px;
+    height: 50px;
+}
+
+.cardImgRo {
+    width: 500px;
+    height: 50px;
+}
+
+
+/* ====================================== Upcoming Events Starts ============================== */
+
+.upcoming {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.leftUp {
+    margin-top: 50px;
+    background-color: white;
+    flex: 3;
+}
+
+.leftUp h1 {
+    color: blueviolet;
+    background-color: white;
+    text-align: left;
+    margin-left: 35px;
+    margin-bottom: 15px;
+}
+
+.red {
+    width: 50px;
+    height: 3px;
+    margin-left: 35px;
+    margin-bottom: 15px;
+    background-color: red;
+}
+
+.red3 {
+    width: 50px;
+    height: 3px;
+    margin-bottom: 15px;
+    background-color: red;
+}
+
+.leftCards {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    flex-wrap: wrap;
+    margin-left: 25px;
+}
+
+.upCard {
+    background-color: gainsboro;
+    margin: 15px;
+    padding: 15px 25px;
+    width: 350px;
+    box-shadow: 3px 5px 5px 5px rgb(180, 173, 173);
+    cursor: pointer;
+}
+
+.upCard:hover {
+    box-shadow: 3px 5px 5px 5px gray;
+}
+
+.upCardImg {
+    width: 50px;
+    background-color: gainsboro;
+}
+
+.upCard h2 {
+    background-color: gainsboro;
+    color: blueviolet;
+    font-size: 20px;
+    /* magin-top: 35px; */
+    padding-left: 30px;
+    display: inline;
+}
+
+.rightUp {
+    background-color: white;
+    margin-top: 50px;
+    flex: 1.5;
+}
+
+.rightUp h1 {
+    background-color: white;
+    color: blueviolet;
+    text-align: left;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.rightUp p {
+    border: 1px solid whitesmoke;
+    padding: 10px;
+    background-color: white;
+    color: gray;
+    text-align: left;
+    font-size: 14px;
+    line-height: 25px;
+    width: 90%;
+    margin-bottom: 55px;
+    text-transform: capitalize;
+}
+/* ==================== Gallery Starts ============================ */
+.gallery h1 {
+    color: blueviolet;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.gallery span {
+    color: red;
+    font-size: 30px;
+}
+
+.imageIcon1 {
+    position: relative;
+    left: 540px;
+}
+
+div.imageDiv {
+    display: inline;
+}
+
+div.imageDiv img {
+    width: 200px;
+    height: 100px;
+    margin: 25px 0px;
+}
+
+div.imageDiv img::before {
+    content: "Hello";
+    color: greenyellow;
+    position: relative;
+    display: block;
+    font-size: 150px;
+}
+
+.galleryImg:hover {
+    opacity: 0.3;
+    transition: 0.4s ease;
+    z-index: -3;
+}
+
+
+/* ============================Footer Starts ======================================== */
+
+footer {
+    width: 100%;
+    background-color: black !important;
+}
+
+.footer {
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    display: block;
+    color: blueviolet;
+    background-color: rgb(16, 14, 36);
+display: flex;
+flex-direction: row;    
+}
+
+.footer .part1 h2 {
+    background-color: rgb(16, 14, 36);
+    text-align: left
+}
+
+.footer .part1 {
+    background-color: rgb(16, 14, 36);
+    padding: 55px;
+    padding-left: 85px;
+    flex: 1;
+}
+
+.footer .part1 ul li {
+    background-color: rgb(16, 14, 36);
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    text-align: left;
+    list-style: none;
+    line-height: 25px;
+}
+
+.footer .part1 ul li i {
+    color: rgb(201, 3, 3);
+    background-color: rgb(16, 14, 36);
+    margin-right: 15px;
+    font-size: 12px;
+}
+
+.globe {
+    margin-left: 19px;
+    margin-right: 5px!important;
+}
+
+.footer .part2 {
+    background-color: rgb(16, 14, 36);
+    flex: 1;
+}
+
+.footer .part2 p {
+    background-color: rgb(16, 14, 36);
+    margin-top: 50px;
+    color: white;
+    text-align: left;
+}
+
+.line1 {
+    width: 50px;
+    height: 2.5px;
+    margin-top: 5px;
+    background-color: rgba(250, 8, 8, 0.5);
+}
+
+.footer .part3 {
+    background-color: rgb(16, 14, 36);
+    flex: 1;
+}
+
+.footer .part3 p {
+    background-color: rgb(16, 14, 36);
+    margin-top: 50px;
+    color: white;
+    text-align: left;
+    margin-left: 70px;
+    margin-bottom: 15px;
+}
+
+.footer .part3 i {
+    margin-left: 0px;
+    margin: 5px;
+    text-align: left;
+    border-radius: 50%;
+}
+
+.copy {
+    background-color: #6c5ce7;
+    /* margin-bottom: 0; */
+    /* margin-top: 15px; */
+    color: white;
+    padding: 20px 0;
+    font-size: 13px;
+    text-align: left;
+    padding-left: 150px;
+}
+#toggle,
+label {
+    display: none;
+}
+
+
+/* ======================= Media Query for Tab =============================== */
+
+@media only screen and (max-width: 760px) {
+    .navicons,
+    .navPara,
+    .navbtns {
+        padding: 10px 0;
+        width: 100%;
+        margin: 0;
+    }
+    .navBar {
+        position: sticky;
+        top: 0;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .toggle-img {
+        background-color: #ecf0f1;
+    }
+        .navBar ul {
+        display: none;
+        align-items: center;
+    }
+    
+    #toggle,label {
+        display: block;
+        background-color: #ecf0f1;
+        color: #ecf0f1;
+        position: absolute;
+        right: 29px;
+        top: 30px;
+    }
+    #toggle {
+        display: block;
+    }
+    #toggle:checked .navBar ul {
+        display: block;
+    }
+    .navBar ul li a {
+        font-size: 10px;
+    }
+    .slider {
+        height: 350px;
+    }
+    .navBar  ul  li  a  i {
+        font-size: 12px;
+        margin-right: 65px;
+position: absolute;
+top: 10px;
+left: 550px;
+    }
+    .navBar ul li {
+        width: 100%;
+    }
+    .navBar ul ul {
+        display: none;
+    }
+    .navBar ul ul li {
+        background-color: #ecf0f1;
+        width: 100%;
+    }
+    .navBar ul li:hover .navBar ul ul {
+        display: block;
+    }
+    .navBar ul ul li a {
+        background-color: #ecf0f1;
+    }
+    .navBar ul ul li a i{
+        background-color: #ecf0f1;
+left: 75px;
+top: 0px;
+-webkit-transform: rotate(90deg);
+    }
+    /* =================== Intro =========================== */
+    .introPara {
+        font-size: 12px;
+        width: 90%;
+        height: 18px;
+    }
+    .intro {
+        padding: 10px 0;
+    }
+    .introImg {
+        border-radius: 50%;
+        width: 40px;
+        margin-bottom: 20px;
+    }
+    /* =================== Counter =========================== */
+    .counter {
+        flex-direction: column;
+        height: 600px;
+    }
+    .red1 {
+        width: 30px;
+        /* left: 1500px; */
+    }
+.red2 {
+    /* margin-right: 500px; */
+    width: 30px;
+    height: 3px;
+    left: -355px;
+}   
+ .intro h1,
+    .intro h1 span,
+    .cards h1,
+    .cards h1 span {
+        font-size: 25px;
+    }
+
+
+.card {
+    width: 100px;
+}
+/* ============================ Upcoming ============================ */
+.upcoming {
+    width: 100%;
+    flex-direction: column;
+}
+
+.upCard {
+    margin: 15px auto;
+    width: 75%;
+    height: 50px;
+}
+
+.upCard h2 {
+    font-size: 15px;
+}
+
+.leftCards {
+    margin-left: 0;
+}
+
+.rightUp h1 {
+    margin-left: 25px;
+}
+
+.red3 {
+    margin-left: 25px;
+}
+div.rightUp {
+    display: block;
+}
+/* ======================== Footer ========================= */
+.footer{
+    flex-direction: column;
+}
+.footer {
+    flex-direction: column;
+    text-align: center;
+justify-content: center;
+align-items: center;}
+.part3 p {
+margin:auto;
+text-align: center;
+margin-left: -70px;   
+ }
+ .globe {
+     display: inline-block;
+ }
+ .part1 {
+     margin-bottom: 0px;
+ }
+
+div.imageDiv img{
+width: 75%;
+margin: 15px 0;
+}
+.introPara p {
+    font-size: 12px;
+    animation: paara 18s ease infinite;
+    /* animation-delay: 1s; */
+}
+
+@keyframes paara {
+    0% { transform: translateX(300px) ;  }
+    100% { transform: translateX(-320px) ;   }
+}
+#topBtn {
+    left: 270px;
+    width: 70px;
+    top: 560px;
+}
+
+}
+/* ======================= Media Query for Mobile Phones =============================== */
+
+@media only screen and (max-width: 500px) {
+    .slider {
+        width: 100%;
+        height: 200px;
+    }
+    .navBar {
+        position: sticky;
+        top: 0;
+    }
+    #topBtn {
+        position: sticky;
+    }
+    .card {
+        width: 80%;
+    }
+
+    .upcoming {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .upCard {
+        margin: 15px auto;
+        width: 75%;
+        height: 50px;
+    }
+    
+    .upCard h2 {
+        font-size: 15px;
+    }
+    
+    .leftCards {
+        margin-left: 0;
+    }
+    
+    .rightUp h1 {
+        margin-left: 25px;
+    }
+    
+    .red3 {
+        margin-left: 25px;
+    }
+
+.copy {
+    padding-left: 25px;
+}
+.red2{
+    left: -445px;
+}
+    }
